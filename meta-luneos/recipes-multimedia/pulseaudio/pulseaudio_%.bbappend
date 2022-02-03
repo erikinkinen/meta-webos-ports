@@ -30,3 +30,5 @@ SYSTEMD_SERVICE:${PN}-server = "pulseaudio.service"
 # - https://github.com/Freescale/meta-fsl-arm/commit/3e6ede30f5da132fc5e2c376c11df661efea7163
 # - https://bugs.launchpad.net/ubuntu/+source/pulseaudio/+bug/932096
 CACHED_CONFIGUREVARS:append:arm = " ax_cv_PTHREAD_PRIO_INHERIT=no"
+
+DEPENDS += " dbus"

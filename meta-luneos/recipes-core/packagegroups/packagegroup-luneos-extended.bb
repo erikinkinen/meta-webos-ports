@@ -160,6 +160,7 @@ RDEPENDS:${PN}:append:rosy = " ${LIBHYBRIS_RDEPENDS} ${MEMNOTIFY_RDEPENDS} blueb
 RDEPENDS:${PN}:append:s2 = " ${LIBHYBRIS_RDEPENDS}"
 RDEPENDS:${PN}:append:sagit = " ${LIBHYBRIS_RDEPENDS}"
 RDEPENDS:${PN}:append:yggdrasil = " ${LIBHYBRIS_RDEPENDS} ${MEMNOTIFY_RDEPENDS}"
+RDEPENDS:${PN}:append:sargo = " ${LIBHYBRIS_RDEPENDS} bluebinder"
 
 QEMU_RDEPENDS = " \
     alsa-utils-systemd \

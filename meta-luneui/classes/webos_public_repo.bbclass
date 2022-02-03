@@ -7,7 +7,7 @@
 #
 
 # The default repo name is the "base" component name (no -native, etc.)
-WEBOS_REPO_NAME ??= "${BPN}"
+WEBOS_REPO_NAME ??= "${BPN}.git"
 
 WEBOS_GIT_PARAM_BRANCH ?= "master"
 WEBOS_GIT_BRANCH ?= ";branch=${WEBOS_GIT_PARAM_BRANCH}"

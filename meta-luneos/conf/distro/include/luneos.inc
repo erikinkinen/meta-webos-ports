@@ -182,8 +182,8 @@ SANITY_TESTED_DISTROS ?= " \
     ubuntu-21.04 \n \
 "
 
-require conf/distro/include/yocto-uninative.inc
-INHERIT += "uninative"
+#require conf/distro/include/yocto-uninative.inc
+#INHERIT += "uninative"
 
 # no interactive resolving, better to fail and report later
 PATCHRESOLVE = "noop"
